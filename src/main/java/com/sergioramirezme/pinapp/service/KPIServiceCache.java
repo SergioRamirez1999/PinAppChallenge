@@ -20,7 +20,7 @@ public class KPIServiceCache {
     private static final String KPI_AGE_AVERAGE = "AGE_AVERAGE";
     private static final String KPI_STANDARD_DESVIATION = "STANDARD_DESVIATION";
 
-    private static final long BATCH_SIZE = 2;
+    private static final long BATCH_SIZE = 10_000;
 
     private final Logger logger = LoggerFactory.getLogger(KPIServiceCache.class);
 
