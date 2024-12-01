@@ -14,6 +14,6 @@ FROM openjdk:21-slim
 
 EXPOSE 8080
 
-COPY --from=build /app/target/pinapp-challenge-1.0.jar /app/app.jar
+COPY --from=build /app/target/pinapp-1.0.jar /app/app.jar
 
 ENTRYPOINT ["java", "-jar", "/app/app.jar"]
