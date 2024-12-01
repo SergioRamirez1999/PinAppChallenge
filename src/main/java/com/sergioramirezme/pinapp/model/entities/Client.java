@@ -30,6 +30,7 @@ public class Client {
     @Column(name = "BIRTHDATE")
     private LocalDate birthdate;
 
+    @Transient
     private LocalDate estimatedDateOfDeath;
 
 }
