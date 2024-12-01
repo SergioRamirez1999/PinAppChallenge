@@ -16,7 +16,7 @@
 
 
 
-Host GCP: https://pinappchallenge-643178392609.us-central1.run.app
+Host GCP: https://pinappchallenge-643178392609.us-central1.run.app  
 Host Render: https://pinappchallenge.onrender.com
 
 Swagger-ui: [host]/swagger-ui/index.html#/client-controller
