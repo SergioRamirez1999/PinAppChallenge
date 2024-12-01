@@ -30,7 +30,14 @@ public class Client {
     @Column(name = "BIRTHDATE")
     private LocalDate birthdate;
 
+    @Column(name = "CREATION_DATE")
+    private LocalDate creationDate;
+
     @Transient
     private LocalDate estimatedDateOfDeath;
 
+    @PrePersist
+    public void prePersist() {
+        this.creationDate = LocalDate.now();
+    }
 }
